@@ -10,11 +10,11 @@
         "projectUniqueName": "E:\\Project\\Asp Core MVC\\ASP.Net Core_Bhrugen Patel\\Demo\\BuckyBook\\BuckyBookModels\\BuckyBookModels.csproj",
         "projectName": "BuckyBookModels",
         "projectPath": "E:\\Project\\Asp Core MVC\\ASP.Net Core_Bhrugen Patel\\Demo\\BuckyBook\\BuckyBookModels\\BuckyBookModels.csproj",
-        "packagesPath": "C:\\Users\\Shubham\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
         "outputPath": "E:\\Project\\Asp Core MVC\\ASP.Net Core_Bhrugen Patel\\Demo\\BuckyBook\\BuckyBookModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Shubham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
