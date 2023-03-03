@@ -1,0 +1,17 @@
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\bin\Debug\net6.0\BuckyBookDataAccess.deps.json
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\bin\Debug\net6.0\BuckyBookDataAccess.dll
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\bin\Debug\net6.0\BuckyBookDataAccess.pdb
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\bin\Debug\net6.0\BuckyBookModels.dll
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\bin\Debug\net6.0\BuckyBookModels.pdb
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\BuckyBookDataAccess.csproj.AssemblyReference.cache
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\BuckyBookDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\BuckyBookDataAccess.AssemblyInfoInputs.cache
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\BuckyBookDataAccess.AssemblyInfo.cs
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\BuckyBookDataAccess.csproj.CoreCompileInputs.cache
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\BuckyBookDataAccess.csproj.CopyComplete
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\BuckyBookDataAccess.dll
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\refint\BuckyBookDataAccess.dll
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\BuckyBookDataAccess.pdb
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\ref\BuckyBookDataAccess.dll
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\bin\Debug\net6.0\BuckyBookDataAccess.runtimeconfig.json
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\BuckyBookDataAccess.genruntimeconfig.cache

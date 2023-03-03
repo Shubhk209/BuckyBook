@@ -1,0 +1,12 @@
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookUtility\bin\Debug\net6.0\BuckyBookUtility.deps.json
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookUtility\bin\Debug\net6.0\BuckyBookUtility.dll
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookUtility\bin\Debug\net6.0\BuckyBookUtility.pdb
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookUtility\obj\Debug\net6.0\BuckyBookUtility.csproj.AssemblyReference.cache
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookUtility\obj\Debug\net6.0\BuckyBookUtility.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookUtility\obj\Debug\net6.0\BuckyBookUtility.AssemblyInfoInputs.cache
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookUtility\obj\Debug\net6.0\BuckyBookUtility.AssemblyInfo.cs
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookUtility\obj\Debug\net6.0\BuckyBookUtility.csproj.CoreCompileInputs.cache
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookUtility\obj\Debug\net6.0\BuckyBookUtility.dll
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookUtility\obj\Debug\net6.0\refint\BuckyBookUtility.dll
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookUtility\obj\Debug\net6.0\BuckyBookUtility.pdb
+E:\Project\Asp Core MVC\ASP.Net Core_Bhrugen Patel\Demo\BuckyBook\BuckyBookUtility\obj\Debug\net6.0\ref\BuckyBookUtility.dll
