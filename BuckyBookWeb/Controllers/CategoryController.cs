@@ -1,4 +1,5 @@
-﻿using BuckyBookWeb.DataAccess;
+﻿using BuckyBookDataAccess.IRepository;
+using BuckyBookWeb.DataAccess;
 using BuckyBookWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Query.Internal;
@@ -7,16 +8,17 @@ namespace BuckyBookWeb.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext _db;
+        //private readonly ApplicationDbContext _db;
+        private readonly ICategoryRespository _db;
 
-        public CategoryController(ApplicationDbContext dbContext)
+        public CategoryController(ICategoryRespository dbContext)
         {
             _db = dbContext;
         }
 
         public IActionResult Index()
         {
-            IEnumerable<Category> list = _db.Categories.ToList();
+            IEnumerable<Category> list = _db.GetAll();
             return View(list);
         }
 
@@ -40,11 +42,11 @@ namespace BuckyBookWeb.Controllers
             // check if model is valid
             if (ModelState.IsValid)
             {
-                // add the entry to db
-                _db.Categories.Add(obj);
+                // add the entry to db by using Repository implemented method
+                _db.Add(obj);
 
-                // push the changes to db
-                _db.SaveChanges();
+                // push the changes to db using CategoryRepository implemented method
+                _db.Save();
 
                 TempData["Success"] = "Category created successfully";
                 return RedirectToAction("Index");
@@ -61,17 +63,17 @@ namespace BuckyBookWeb.Controllers
 
 
             // fetch the category details
-            var CategoryFromDb = _db.Categories.Find(id);
+            //var CategoryFromDb = _db.Find(id);
             //var CategoryFromDbSingle = _db.Categories.SingleOrDefault(u => u.Id == id);
-            //var CategoryFromDbFirst = _db.Categories.FirstOrDefault(u => u.Id == id);
+            var CategoryFromDbFirst = _db.GetFirstOrDefault(u => u.Id == id);
 
             // check if fetch data is null 
-            if (CategoryFromDb == null)
+            if (CategoryFromDbFirst == null)
                 return NotFound();
 
 
             // if fetch data is not null then return data to view
-            return View(CategoryFromDb);
+            return View(CategoryFromDbFirst);
         }
 
 		[HttpPost]
@@ -88,10 +90,10 @@ namespace BuckyBookWeb.Controllers
 			if (ModelState.IsValid)
 			{
 				// update the record based on primary key to db
-				_db.Categories.Update(obj);
+				_db.Update(obj);
 
 				// push the changes to db
-				_db.SaveChanges();
+				_db.Save();
 				TempData["Success"] = "Category updated successfully";
 				return RedirectToAction("Index");
 			}
@@ -107,17 +109,17 @@ namespace BuckyBookWeb.Controllers
 
 
 			// fetch the category details
-			var CategoryFromDb = _db.Categories.Find(id);
+			//var CategoryFromDb = _db.Categories.Find(id);
 			//var CategoryFromDbSingle = _db.Categories.SingleOrDefault(u => u.Id == id);
-			//var CategoryFromDbFirst = _db.Categories.FirstOrDefault(u => u.Id == id);
+			var CategoryFromDbFirst = _db.GetFirstOrDefault(u => u.Id == id);
 
 			// check if fetch data is null 
-			if (CategoryFromDb == null)
+			if (CategoryFromDbFirst == null)
 				return NotFound();
 
 
 			// if fetch data is not null then return data to view
-			return View(CategoryFromDb);
+			return View(CategoryFromDbFirst);
 		}
 
         //Now we can use Delete as Action method for post request.
@@ -126,19 +128,19 @@ namespace BuckyBookWeb.Controllers
 		public IActionResult DeletePost(int? id)
 		{
 
-            var obj = _db.Categories.Find(id);
+            var obj = _db.GetFirstOrDefault(u => u.Id == id);
 
-            if(obj == null)
+            if (obj == null)
             {
                 return NotFound();
             }
 
 			
 			// remove the record based on primary key to db
-			_db.Categories.Remove(obj);
+			_db.Remove(obj);
 
 			// push the changes to db
-			_db.SaveChanges();
+			_db.Save();
             // for success alert
 			TempData["Success"] = "Category deleted successfully";
 			

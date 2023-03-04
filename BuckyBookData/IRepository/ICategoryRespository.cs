@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BuckyBookDataAccess.IRepository
 {
-    internal interface ICategoryRespository : IRepository<Category>
+    public interface ICategoryRespository : IRepository<Category>
     {
         // to update the category we implemnt the this method.
         void Update(Category obj);
