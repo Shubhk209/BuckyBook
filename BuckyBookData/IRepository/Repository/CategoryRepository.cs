@@ -25,10 +25,7 @@ namespace BuckyBookDataAccess.IRepository.Repository
         }
 
         // now we need to implements the remaining Methods which we declared in ICategoryRespository
-        public void Save()
-        {
-            _db.SaveChanges();  
-        }
+        
 
         public void Update(Category obj)
         {
