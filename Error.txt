@@ -1,0 +1,2 @@
+client side 
+Migrate entirely to HTTPS to have cookies sent to same-site subresources
