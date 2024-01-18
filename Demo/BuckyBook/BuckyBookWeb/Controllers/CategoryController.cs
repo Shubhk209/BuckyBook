@@ -9,16 +9,16 @@ namespace BuckyBookWeb.Controllers
     public class CategoryController : Controller
     {
         //private readonly ApplicationDbContext _db;
-        private readonly ICategoryRespository _db;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public CategoryController(ICategoryRespository dbContext)
+        public CategoryController(IUnitOfWork unitOfWork)
         {
-            _db = dbContext;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
-            IEnumerable<Category> list = _db.GetAll();
+            IEnumerable<Category> list = _unitOfWork.Category.GetAll();
             return View(list);
         }
 
@@ -43,10 +43,10 @@ namespace BuckyBookWeb.Controllers
             if (ModelState.IsValid)
             {
                 // add the entry to db by using Repository implemented method
-                _db.Add(obj);
+                _unitOfWork.Category.Add(obj);
 
                 // push the changes to db using CategoryRepository implemented method
-                _db.Save();
+                _unitOfWork.Save();
 
                 TempData["Success"] = "Category created successfully";
                 return RedirectToAction("Index");
@@ -65,7 +65,7 @@ namespace BuckyBookWeb.Controllers
             // fetch the category details
             //var CategoryFromDb = _db.Find(id);
             //var CategoryFromDbSingle = _db.Categories.SingleOrDefault(u => u.Id == id);
-            var CategoryFromDbFirst = _db.GetFirstOrDefault(u => u.Id == id);
+            var CategoryFromDbFirst = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
 
             // check if fetch data is null 
             if (CategoryFromDbFirst == null)
@@ -89,11 +89,11 @@ namespace BuckyBookWeb.Controllers
 			// check if model is valid
 			if (ModelState.IsValid)
 			{
-				// update the record based on primary key to db
-				_db.Update(obj);
+                // update the record based on primary key to db
+                _unitOfWork.Category.Update(obj);
 
-				// push the changes to db
-				_db.Save();
+                // push the changes to db
+                _unitOfWork.Save();
 				TempData["Success"] = "Category updated successfully";
 				return RedirectToAction("Index");
 			}
@@ -111,7 +111,7 @@ namespace BuckyBookWeb.Controllers
 			// fetch the category details
 			//var CategoryFromDb = _db.Categories.Find(id);
 			//var CategoryFromDbSingle = _db.Categories.SingleOrDefault(u => u.Id == id);
-			var CategoryFromDbFirst = _db.GetFirstOrDefault(u => u.Id == id);
+			var CategoryFromDbFirst = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
 
 			// check if fetch data is null 
 			if (CategoryFromDbFirst == null)
@@ -128,19 +128,19 @@ namespace BuckyBookWeb.Controllers
 		public IActionResult DeletePost(int? id)
 		{
 
-            var obj = _db.GetFirstOrDefault(u => u.Id == id);
+            var obj = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
 
             if (obj == null)
             {
                 return NotFound();
             }
 
-			
-			// remove the record based on primary key to db
-			_db.Remove(obj);
 
-			// push the changes to db
-			_db.Save();
+            // remove the record based on primary key to db
+            _unitOfWork.Category.Remove(obj);
+
+            // push the changes to db
+            _unitOfWork.Save();
             // for success alert
 			TempData["Success"] = "Category deleted successfully";
 			

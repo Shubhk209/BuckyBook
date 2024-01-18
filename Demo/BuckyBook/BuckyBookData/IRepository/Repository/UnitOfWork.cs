@@ -18,12 +18,12 @@ namespace BuckyBookDataAccess.IRepository.Repository
             // because the Respository expects db context object
             _db = db;
             // create object of CategoryRepository
-            CategoryRepo = new CategoryRepository(_db);
+            Category = new CategoryRepository(_db);
 
         }
 
         // property
-        public ICategoryRespository CategoryRepo { get; private set; }
+        public ICategoryRespository Category { get; private set; }
 
         //method
         public void Save()

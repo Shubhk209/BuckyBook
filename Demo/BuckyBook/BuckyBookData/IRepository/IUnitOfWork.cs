@@ -10,7 +10,7 @@ namespace BuckyBookDataAccess.IRepository
     public interface IUnitOfWork
     {
         // Create all repository 
-        ICategoryRespository CategoryRepo { get; }
+        ICategoryRespository Category { get; }
 
         // Global method
         void Save();
