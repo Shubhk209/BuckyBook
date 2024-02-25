@@ -1,9 +1,4 @@
 ﻿using BuckyBookWeb.DataAccess;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BuckyBookDataAccess.IRepository.Repository
 {
@@ -19,11 +14,13 @@ namespace BuckyBookDataAccess.IRepository.Repository
             _db = db;
             // create object of CategoryRepository
             Category = new CategoryRepository(_db);
+            CoverType = new CoverTypeRepository(_db);
 
         }
 
         // property
         public ICategoryRespository Category { get; private set; }
+        public ICoverTypeRespository CoverType { get; private set; }
 
         //method
         public void Save()

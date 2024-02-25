@@ -1,4 +1,5 @@
-﻿using BuckyBookWeb.Models;
+﻿using BuckyBookModels;
+using BuckyBookWeb.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace BuckyBookWeb.DataAccess
@@ -11,5 +12,7 @@ namespace BuckyBookWeb.DataAccess
 
         // create db sets which we want to create 
         public DbSet<Category> Categories { get; set; } = default!;
+
+        public DbSet<CoverType> CoverTypes { get; set; } = default!;
     }
 }
