@@ -1,5 +1,4 @@
-﻿using BuckyBookModels;
-using BuckyBookWeb.DataAccess;
+﻿using BuckyBookWeb.DataAccess;
 using BuckyBookWeb.Models;
 using System;
 using System.Collections.Generic;

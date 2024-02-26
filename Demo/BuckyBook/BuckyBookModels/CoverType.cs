@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BuckyBookModels
+namespace BuckyBookWeb.Models
 {
     public class CoverType
     {

@@ -1,4 +1,6 @@
-﻿using BuckyBookModels;
+﻿
+
+using BuckyBookWeb.Models;
 
 namespace BuckyBookDataAccess.IRepository
 {

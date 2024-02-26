@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BuckyBookDataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9b003d5ceaedfa6f0004f9ced17bec03c98274a")]
 [assembly: System.Reflection.AssemblyProductAttribute("BuckyBookDataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BuckyBookDataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

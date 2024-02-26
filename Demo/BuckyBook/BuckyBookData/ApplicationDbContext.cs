@@ -1,5 +1,4 @@
-﻿using BuckyBookModels;
-using BuckyBookWeb.Models;
+﻿using BuckyBookWeb.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace BuckyBookWeb.DataAccess
