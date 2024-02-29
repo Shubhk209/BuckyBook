@@ -27,9 +27,9 @@ E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\Bucky
 E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\BuckyBookDataAccess.AssemblyInfo.cs
 E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\BuckyBookDataAccess.csproj.CoreCompileInputs.cache
 E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\BuckyBookDataAccess.sourcelink.json
-E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\BuckyBookDataAccess.csproj.CopyComplete
 E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\BuckyBookDataAccess.dll
 E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\refint\BuckyBookDataAccess.dll
 E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\BuckyBookDataAccess.pdb
 E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\BuckyBookDataAccess.genruntimeconfig.cache
 E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\ref\BuckyBookDataAccess.dll
+E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookData\obj\Debug\net6.0\BuckyBoo.D69E1281.Up2Date

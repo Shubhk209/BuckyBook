@@ -359,9 +359,9 @@ E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\Bucky
 E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookWeb\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookWeb\obj\Debug\net6.0\scopedcss\bundle\BuckyBookWeb.styles.css
 E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookWeb\obj\Debug\net6.0\scopedcss\projectbundle\BuckyBookWeb.bundle.scp.css
-E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookWeb\obj\Debug\net6.0\BuckyBookWeb.csproj.CopyComplete
 E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookWeb\obj\Debug\net6.0\BuckyBookWeb.dll
 E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookWeb\obj\Debug\net6.0\refint\BuckyBookWeb.dll
 E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookWeb\obj\Debug\net6.0\BuckyBookWeb.pdb
 E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookWeb\obj\Debug\net6.0\BuckyBookWeb.genruntimeconfig.cache
 E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookWeb\obj\Debug\net6.0\ref\BuckyBookWeb.dll
+E:\Project\Dot Net\Asp Core MVC\ASP.Net Core6_Bhrugen Patel\Demo\BuckyBook\BuckyBookWeb\obj\Debug\net6.0\BuckyBoo.33ED7574.Up2Date
