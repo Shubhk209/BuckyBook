@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BuckyBookWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6822aaf6995b2b47e7a9f7a1d724d4594dbebdd2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b34925d485cf38f03f67f4731a5df791fb191b9d")]
 [assembly: System.Reflection.AssemblyProductAttribute("BuckyBookWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BuckyBookWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
