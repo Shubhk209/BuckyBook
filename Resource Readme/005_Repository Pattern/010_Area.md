@@ -54,4 +54,6 @@ namespace BuckyBookWeb.Areas.Admin.Controllers
 
 # Restructure the Folder in the Solution.
 
-1.  Move the CategoryController file from Controller to Area/Admin/Controller.
+1. Move Controller to Area Controller.
+2. Move View to Area's View Folder for the respective Controller.
+   - Like 

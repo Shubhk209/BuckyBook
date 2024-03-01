@@ -4,19 +4,19 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BuckyBookWeb.Areas.Admin.Controllers
 {
-    public class CategoryController : Controller
+    public class CoverTypeController : Controller
     {
         //private readonly ApplicationDbContext _db;
         private readonly IUnitOfWork _unitOfWork;
 
-        public CategoryController(IUnitOfWork unitOfWork)
+        public CoverTypeController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
-            IEnumerable<Category> list = _unitOfWork.Category.GetAll();
+            IEnumerable<CoverType> list = _unitOfWork.CoverType.GetAll();
             return View(list);
         }
 
@@ -30,18 +30,15 @@ namespace BuckyBookWeb.Areas.Admin.Controllers
         //POST
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Category obj)
+        public IActionResult Create(CoverType obj)
         {
-            //if (obj.Name == obj.DisplayOrder.ToString())
-            //{
-            //    ModelState.AddModelError("CustomError", "The display order cannot exactly match the name");
-            //}
+           
 
             // check if model is valid
             if (ModelState.IsValid)
             {
                 // add the entry to db by using Repository implemented method
-                _unitOfWork.Category.Add(obj);
+                _unitOfWork.CoverType.Add(obj);
 
                 // push the changes to db using CategoryRepository implemented method
                 _unitOfWork.Save();
@@ -63,23 +60,23 @@ namespace BuckyBookWeb.Areas.Admin.Controllers
             // fetch the category details
             //var CategoryFromDb = _db.Find(id);
             //var CategoryFromDbSingle = _db.Categories.SingleOrDefault(u => u.Id == id);
-            var CategoryFromDbFirst = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
+            var CoverTypeFromDbFirst = _unitOfWork.CoverType.GetFirstOrDefault(u => u.Id == id);
 
             // check if fetch data is null 
-            if (CategoryFromDbFirst == null)
+            if (CoverTypeFromDbFirst == null)
                 return NotFound();
 
 
             // if fetch data is not null then return data to view
-            return View(CategoryFromDbFirst);
+            return View(CoverTypeFromDbFirst);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(Category obj)
+        public IActionResult Edit(CoverType obj)
         {
 
-            if (obj.Name == obj.DisplayOrder.ToString())
+            if (obj.Name == obj.Name.ToString())
             {
                 ModelState.AddModelError("CustomError", "The display order cannot exactly match the name");
             }
@@ -88,7 +85,7 @@ namespace BuckyBookWeb.Areas.Admin.Controllers
             if (ModelState.IsValid)
             {
                 // update the record based on primary key to db
-                _unitOfWork.Category.Update(obj);
+                _unitOfWork.CoverType.Update(obj);
 
                 // push the changes to db
                 _unitOfWork.Save();
@@ -109,7 +106,7 @@ namespace BuckyBookWeb.Areas.Admin.Controllers
             // fetch the category details
             //var CategoryFromDb = _db.Categories.Find(id);
             //var CategoryFromDbSingle = _db.Categories.SingleOrDefault(u => u.Id == id);
-            var CategoryFromDbFirst = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
+            var CategoryFromDbFirst = _unitOfWork.CoverType.GetFirstOrDefault(u => u.Id == id);
 
             // check if fetch data is null 
             if (CategoryFromDbFirst == null)
@@ -126,7 +123,7 @@ namespace BuckyBookWeb.Areas.Admin.Controllers
         public IActionResult DeletePost(int? id)
         {
 
-            var obj = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
+            var obj = _unitOfWork.CoverType.GetFirstOrDefault(u => u.Id == id);
 
             if (obj == null)
             {
@@ -135,7 +132,7 @@ namespace BuckyBookWeb.Areas.Admin.Controllers
 
 
             // remove the record based on primary key to db
-            _unitOfWork.Category.Remove(obj);
+            _unitOfWork.CoverType.Remove(obj);
 
             // push the changes to db
             _unitOfWork.Save();

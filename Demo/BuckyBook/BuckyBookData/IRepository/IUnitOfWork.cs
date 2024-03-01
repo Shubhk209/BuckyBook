@@ -11,6 +11,7 @@ namespace BuckyBookDataAccess.IRepository
     {
         // Create all repository 
         ICategoryRespository Category { get; }
+        ICoverTypeRespository CoverType { get; }
 
         // Global method
         void Save();
